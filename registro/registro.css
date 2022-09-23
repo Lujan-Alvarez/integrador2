@@ -10,7 +10,7 @@ body{
     width: 450px;
     height: 430px;
     background: #000;
-    color:rgb(86, 13, 13);
+    color:rgb(240, 233, 233);
     top: 30%;
     left: 38%;
     position: absolute;
@@ -65,8 +65,8 @@ body{
     border: none;
     outline: none;
     height: 40px;
-    background: #b80f22;
-    color: #fff;
+    background: #f5f1f1;
+    color: rgb(190, 49, 49);
     font-size: 18px;
     border-radius: 20px;
 }
@@ -78,5 +78,13 @@ body{
     font-family: 'Roboto Flex', sans-serif;
 }
 .registro-box a:hover {
-    color: rgb(100, 35, 35);
+    color: rgb(88, 4, 4);
+}
+.registro-box .logo{
+    width: 180px;
+    height: 110px;
+    border-radius: 50px;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 90px);
 }
