@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.login-box{
+.registro-box{
     width: 450px;
     height: 430px;
     background: #000;
@@ -18,16 +18,16 @@ body{
     box-sizing:border-box;
     padding: 70px 30px;
 }
-.login-box .avatar{
+.registro-box .avatar{
     width: 180px;
     height: 110px;
     border-radius: 50px;
     position: absolute;
-    top: -20px;
+    top: -30px;
     left: calc(50% - 90px);
 }
 
-.login-box h1 {
+.registro-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
@@ -35,14 +35,14 @@ body{
     color: #fff;
     font-family: 'Shadows Into Light', cursive;
 }
-.login-box label {
+.registro-box label {
     margin: 0;
     padding: 0;
     font-weight:bold;
     display: block;
 
 }
-.login-box input {
+.registro-box input {
     width: 100%;
     margin-bottom: 20px;
     font-family: 'Roboto Flex', sans-serif;
@@ -51,8 +51,8 @@ body{
     height: 28px;
     
 }
-.login-box input [type-text],
-.login-box input [type-password] {
+.registro-box input [type-text],
+.registro-box input [type-password] {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -61,7 +61,7 @@ body{
     color: #fff;
     font-size: 16px;
 }
-.login-box input [type-submit]{
+.registro-box input [type-submit]{
     border: none;
     outline: none;
     height: 40px;
@@ -70,13 +70,13 @@ body{
     font-size: 18px;
     border-radius: 20px;
 }
-.login-box a {
+.registro-box a {
     text-decoration: none;
     font-size: 16px;
     line-height: 20px;
     color: rgb(255, 254, 254);
     font-family: 'Roboto Flex', sans-serif;
 }
-.login-box a:hover {
+.registro-box a:hover {
     color: rgb(100, 35, 35);
 }
