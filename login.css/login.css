@@ -35,6 +35,7 @@ body{
     color: #fff;
     font-family: 'Shadows Into Light', cursive;
 }
+
 .login-box label {
     margin: 0;
     padding: 0;
@@ -42,15 +43,18 @@ body{
     display: block;
 
 }
+
 .login-box input {
     width: 100%;
     margin-bottom: 20px;
     font-family: 'Roboto Flex', sans-serif;
+    font-size: 17px;
     border-radius: 10px;
     text-align:center;
     height: 28px;
-    
+    background-color: rgb(203, 155, 43);
 }
+
 .login-box input [type-text],
 .login-box input [type-password] {
     border: none;
@@ -61,6 +65,7 @@ body{
     color: #fff;
     font-size: 16px;
 }
+
 .login-box input [type-submit]{
     border: none;
     outline: none;
@@ -70,6 +75,7 @@ body{
     font-size: 18px;
     border-radius: 20px;
 }
+
 .login-box a {
     text-decoration: none;
     font-size: 16px;
@@ -77,14 +83,16 @@ body{
     color: rgb(255, 254, 254);
     font-family: 'Roboto Flex', sans-serif;
 }
+
 .login-box a:hover {
     color: rgb(100, 35, 35);
 }
+
 .login-box .logo{
     width: 180px;
     height: 110px;
     border-radius: 50px;
     position: absolute;
-    top: -20px;
+    top: -25px;
     left: calc(50% - 90px);
 }
