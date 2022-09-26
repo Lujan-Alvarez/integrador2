@@ -89,3 +89,10 @@ body{
     top: -30px;
     left: calc(50% - 90px);
 }
+
+@media (max-width:768px){
+  .registro-box{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
