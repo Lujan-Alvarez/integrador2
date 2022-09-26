@@ -177,4 +177,8 @@ footer{
         flex: 100%;
     
     }
+    .footer{
+        display:block;
+        flex-wrap: wrap;
+    }
     }
